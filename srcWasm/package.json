@@ -1,0 +1,12 @@
+{
+  "name": "mpz_ts_wasm",
+  "version": "0.1.0",
+  "files": [
+    "mpz_ts_wasm_bg.wasm",
+    "mpz_ts_wasm.js",
+    "mpz_ts_wasm.d.ts"
+  ],
+  "module": "mpz_ts_wasm.js",
+  "types": "mpz_ts_wasm.d.ts",
+  "sideEffects": false
+}

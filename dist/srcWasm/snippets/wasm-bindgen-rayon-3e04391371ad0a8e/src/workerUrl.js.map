@@ -1,0 +1,1 @@
+{"version":3,"file":"workerUrl.js","sourceRoot":"","sources":["../../../../../srcWasm/snippets/wasm-bindgen-rayon-3e04391371ad0a8e/src/workerUrl.js"],"names":[],"mappings":"AAAA,MAAM,SAAS,GAAG,ks+BAAks+B,CAAC;AACrt+B,MAAM,IAAI,GAAG,IAAI,IAAI,CAAC,CAAC,SAAS,CAAC,EAAE,EAAE,IAAI,EAAE,wBAAwB,EAAE,CAAC,CAAC;AACvE,eAAe,GAAG,CAAC,eAAe,CAAC,IAAI,CAAC,CAAC"}
