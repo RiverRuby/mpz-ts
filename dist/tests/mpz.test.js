@@ -1,10 +1,10 @@
-import { expect } from 'chai';
-import * as mpzWasm from '../src/wasmLib';
-import { makeLocalCommsPair } from './helpers/LocalComms';
-import blockTrim from './helpers/blockTrim';
-describe('mpz', () => {
+import { expect } from "chai";
+import * as mpzWasm from "../src/wasmLib";
+import { makeLocalCommsPair } from "./helpers/LocalComms";
+import blockTrim from "./helpers/blockTrim";
+describe("mpz", () => {
     // TODO: Tests need to run in bun not nodejs
-    it.skip('test fn', async () => {
+    it.skip("test fn", async () => {
         await mpzWasm.init(4);
         const [aliceComms, bobComms] = makeLocalCommsPair();
         const responses = await Promise.all([
@@ -14,7 +14,7 @@ describe('mpz', () => {
         console.log({ responses });
         // expect(msg).to.deep.eq(Uint8Array.from([0, 0, 0, 4, 2, 0, 0, 0]));
     });
-    it('test eval', async () => {
+    it("test eval", async () => {
         await mpzWasm.init(4);
         const output = mpzWasm.testEval({
             bristol: blockTrim(`
